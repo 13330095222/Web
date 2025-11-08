@@ -14,7 +14,7 @@ services:
       - ./letsencrypt:/etc/letsencrypt
     # environment:
     #   - PGDATA=/var/lib/postgresql/data/pgdata
-    restart: unless-stopped
+    # restart: unless-stopped
 
   # Prometheus 监控
   prometheus:
