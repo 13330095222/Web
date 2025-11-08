@@ -35,7 +35,7 @@ services:
       - prometheus-data:/prometheus
     depends_on:
       - alertmanager
-      - blackbox-exporter
+      # - blackbox-exporter
 
   alertmanager:
     image: prom/alertmanager:latest
