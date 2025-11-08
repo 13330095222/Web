@@ -11,8 +11,7 @@ services:
     volumes:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
-      # 保留此目录供自定义配置（可选）
-      - ./custom_nginx:/config/nginx/custom
+
     environment:
       - TZ=Asia/Shanghai
 
