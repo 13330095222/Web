@@ -1,0 +1,8 @@
+route:
+  receiver: "null"
+
+receivers:
+  - name: "null"
+    # 示例：改成邮箱/企业微信/钉钉/Slack/Webhook 等
+    # email_configs:
+    #   - to: "ops@example.com"
