@@ -1,7 +1,7 @@
 services:
   # 🧱 Nginx Proxy Manager
   nginx-proxy-manager:
-    image: jlesage/nginx-proxy-manager:latest
+    image: 'docker.io/jc21/nginx-proxy-manager:latest'
     container_name: nginx-proxy-manager
     restart: unless-stopped
     ports:
