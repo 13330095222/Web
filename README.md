@@ -18,6 +18,5 @@ Prometheu + Grafana + Node Exporter 监控docker项目，可以实时监控docke
 3. `docker-compose.yml`：用于统一安装docker-compose 项目
 4. `prometheus/prometheus.yml`：用于部署安装prometheus项目
 5. `alertmanager/alertmanager.myl`：用于部署安装alertmanager项目
-6. `custom_nginx/http_top.conf`：nginx反向代理配置文件
-7. `README.md`：项目说明文档
+6. `README.md`：项目说明文档
 
